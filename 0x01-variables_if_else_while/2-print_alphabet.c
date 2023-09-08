@@ -8,9 +8,9 @@ int main(void)
 {
 	char c;
 
-	c = 'w';
+	c = 'a';
 	while
-		(c <= "w") {
+		(c <= 'a') {
 			patchar(c);
 			c++;
 		}
