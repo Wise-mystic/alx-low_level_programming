@@ -11,7 +11,7 @@ int main(void)
 	c = 'a';
 	while
 		(c <= 'a') {
-			patchar(c);
+			putchar(c);
 			c++;
 		}
 	putchar('\n');
