@@ -8,9 +8,9 @@ int main(void)
 {
 	char c;
 
-	c = 'a';
+	c = 'w';
 	while
-		(c <= 'a') {
+		(c <= 'w') {
 			putchar(c);
 			c++;
 		}
