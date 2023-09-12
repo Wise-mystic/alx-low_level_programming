@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-	int firstDigit - '0'; 
+	int firstDigit; 
 	int secondDigit;
 
 	while (firstDigit <= "99")
