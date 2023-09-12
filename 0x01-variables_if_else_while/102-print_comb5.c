@@ -10,7 +10,7 @@ int main(void)
 
 	while (firstDigit <= 99)
 	{
-		secondDigit = firstDigit;
+		secondDigit != firstDigit;
 		while (secondDigit <= 99)
 		{
 			if (secondDigit != firstDigit)
