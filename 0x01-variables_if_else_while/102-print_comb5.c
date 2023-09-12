@@ -10,10 +10,10 @@ int main(void)
 
 	while (firstDigit <= 99)
 	{
-		secondDigit != firstDigit;
+		secondDigit = firstDigit;
 		while (secondDigit <= 99)
 		{
-			if (secondDigit != firstDigit)
+			if (secondDigit = firstDigit)
 			{
 				putchar((firstDigit / 10) + 48);
 				putchar(' ');
