@@ -16,11 +16,9 @@ int main(void)
 			if (secondDigit != firstDigit)
 			{
 				putchar((firstDigit / 10) + 48);
-				putchar((firstDigit / d%10) + 48);
 				putchar(' ');
 				putchar((secondDigit / 10) + 48);
-				putchar((secondDigit / d%10) + 48);
-				if (firstDigit != 98 || secondDigit != 99)
+			if (firstDigit != 98 || secondDigit != 99)
 				{
 					putchar(',');
 					putchar(' ');
