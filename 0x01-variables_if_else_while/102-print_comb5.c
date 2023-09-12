@@ -5,13 +5,15 @@
  */
 int main(void)
 {
-	int firstDigit = 0;
-	int secondDigit = 0;
+	int firstDigit = '00';
+	int secondDigit = '00';
 
 	while (firstDigit <= 99)
 	{
 	while (secondDigit <= 99)
 	{
+		if (firstDigit != 00 || secondDigit != 01)
+		{
 				putchar((firstDigit / 10) + 48);
 				putchar(' ');
 				putchar((secondDigit / 10) + 48);
