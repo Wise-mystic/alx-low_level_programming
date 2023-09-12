@@ -12,8 +12,6 @@ int main(void)
 	{
 	while (secondDigit <= 99)
 	{
-		if (firstDigit != 00 || secondDigit != 01)
-		{
 				putchar((firstDigit / 10) + 48);
 				putchar(' ');
 				putchar((secondDigit / 10) + 48);
