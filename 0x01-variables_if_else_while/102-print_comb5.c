@@ -8,7 +8,7 @@ int main(void)
 	int firstDigit; 
 	int secondDigit;
 
-	while (firstDigit <= "99")
+	while (firstDigit <= 99)
 	{
 		secondDigit = firstDigit;
 		while (secondDigit <= 99)
