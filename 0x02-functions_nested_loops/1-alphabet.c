@@ -4,9 +4,13 @@
  * main - Afunction that prints alphabets
  * Return: Always return  0 (successful)
  */
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
-	return (0);
+char d;
+for (d = 'a'; d <= 'z'; d++)
+{
+_putchar(d);
+}
+_putchar('\n');
 }
 
