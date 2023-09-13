@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- *islower -A fuction that deals with islower
- *Rturn: Always return 1 (r = lower case)
+ * main  -A fuction that deals with islower
  * Return: Always 0.
  */
 int main(void)
