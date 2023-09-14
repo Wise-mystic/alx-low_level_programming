@@ -4,7 +4,7 @@ int main(void)
 {
     int limit = 1024;
     int sum = 0;
-    int i = 3; // Start with the first multiple of 3
+    int i = 3; 
 
     while (i < limit) {
         if (i % 3 == 0 || i % 5 == 0) {
