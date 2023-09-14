@@ -1,22 +1,17 @@
 #include "main.h"
 /**
- * main - A function that check the character of alphabets
- * Return: Always 0 (successful).
+ * _isalpha - Checks charcter
+ * @c: The charceter
+ * Return: 1 for all
  */
 
-int main(void)
-{
-	int r;
+int _isalpha(int c)
 
-	r = _isalpha('H');
-	_putchar(r + '0');
-	r = _isalpha('o');
-	_putchar(r + '0');
-	r = _isalpha(108);
-	_putchar(r + '0');
-	r = _isalpha(';');
-	_putchar(r + '0');
-	_putchar('\n');
+{
+	if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
+	{
+		return (1);
+	}
 	return (0);
 }
 
