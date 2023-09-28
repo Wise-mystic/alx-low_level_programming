@@ -5,7 +5,7 @@
  * Return: Always return 0 (successful)
  */
 
-void _puts_recursion(char *s);
+void _puts_recursion(char *s)
 {
 	if (*s)
 	{
